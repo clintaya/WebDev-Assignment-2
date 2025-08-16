@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enhanced Form</title>
+    </head>
+    <h1>Booking Form</h1>
+    <h2>Destinations</h2>
+    <dl>
+        <ul>
+            <li>Maasai Mara</li>
+            <li>Lake Nakuru</li>
+            <li>Mount Kenya</li>
+            <li>Tsavo</li>
+            <li>Amboseli</li>
+            <li>Lake Naivasha</li>
+            <li>Diani</li>
+            <li>Nairobi National Park</li>
+        </ul>
+        <dd>Maasai Mara</dd>
+        <dd>Lake Nakuru</dd>
+        <dd>Mount Kenya</dd>
+        <dd>Tsavo</dd>
+        <dd>Amboseli</dd>
+        <dd>Lake Naivasha</dd>
+        <dd>Diani</dd>
+        <dd>Nairobi National Park</dd>
+    </dl>
+    <h2>Our Offers</h2>
+    <ol>
+        <li>Holiday Packages
+            <ol type="1">
+                <li>Family Package
+                    <ol type="a">
+                        <li>Family Safari</li>
+                        <li>Family Beach Holiday</li>
+                    </ol>
+                </li>
+                <li>Honeymoon Package
+                    <ul>
+                        <li>Romantic Safari</li>
+                        <li>Beach Getaway</li>
+                    </ul>
+                </li>
+                <li>Adventure Package
+                    <ol type="i">
+                        <li>Mountain Climbing</li>
+                        <li>Wildlife Safari</li>
+                        <li>Water Sports</li>
+                    </ol>
+                </li>
+                <li>Luxury Package
+                    <ul>
+                        <li>Private Safari</li>
+                        <li>Exclusive Beach Resort</li>
+                    </ul>
+                </li>
+            </ol>   
+        </li>
+        <h2>Multimedia</h2>
+        <h3>Images</h3>
+        <img src="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg" alt="Coast vibes" width="400" height="400">
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+            Your browser does not support audio playback
+        </audio>
+        <h3>Video</h3>
+        <video width="640" height="360" controls>
+            <source src="hhttps://videos.pexels.com/video-files/857268/857268-uhd_2732_1440_24fps.mp4" type="video/mp4">
+        </video>
+        <h2>Tables</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Destination</th>
+                    <th>Package Type</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maasai Mara</td>
+                    <td>Family Safari</td>
+                    <td>$1500</td>
+                </tr>
+                <tr>
+                    <td>Lake Nakuru</td>
+                    <td>Honeymoon Package</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>Mount Kenya</td>
+                    <td>Adventure Package</td>
+                    <td>$1800</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Booking Form</h2>
+        <form action="...location" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination">
+                <option value="Maasai Mara">Maasai Mara</option>
+                <option value="Lake Nakuru">Lake Nakuru</option>
+                <option value="Mount Kenya">Mount Kenya</option>
+                <option value="Tsavo">Tsavo</option>
+                <option value="Amboseli">Amboseli</option>
+                <option value="Lake Naivasha">Lake Naivasha</option>
+                <option value="Diani">Diani</option>
+                <option value="Nairobi National Park">Nairobi National Park</option>
+            </select>
+            <br><br>
+            <label for="package">Package Type:</label>
+            <select id="package" name="package">
+                <option value="Family Package">Family Package</option>
+                <option value="Honeymoon Package">Honeymoon Package</option>
+                <option value="Adventure Package">Adventure Package</option>
+                <option value="Luxury Package">Luxury Package</option>
+            </select>
+            <br><br>
+            <label for="date">Start Date:</label>
+            <input type="date" id="date" name="date">
+            <br><br>
+            <label for="date">End Date:</label>
+            <input type="date" id="end_date" name="end_date">
+            <br><br>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+    <footer>
+        <p>&copy; 2025 ToaTravel Agency. All rights reserved.</p>
+    </footer>
+</head>
+</html>
